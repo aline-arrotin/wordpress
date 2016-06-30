@@ -1,0 +1,47 @@
+/*
+Theme Name: ingrwf04
+Description: Présentation de la structure d'un thème
+Author: Aline Arrotin
+Tags: simple column, black, white
+Version: 0.01
+Author URI: www.alinearrotin.esy.es
+*/
+body{
+	background-color: tomato;
+}
+
+#affTemplate{
+	position: absolute;
+	float: left;
+	bottom: 5px;
+	padding: 5px;
+	background-color: orange;
+}
+
+#menu-main{
+	list-style: none;
+}
+
+#menu-main li.current-menu-item > a{
+	padding: 5px;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.menu-item a{
+	font-family: sans-serif;
+	font-size: 1.2em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.sub-menu{
+	font-size: 0.8em;
+	list-style: none;
+}
+
+hr{
+	border: 1px solid #fff;
+}
+form input{
+	border: 1px solid #fff;
+}
